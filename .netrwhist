@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/lea/kuboid/estimators'
+let g:netrw_dirhist_2='/home/dp/dev/data/old_corpus_images.csv'
+let g:netrw_dirhist_3='/home/dp/dev/mu-food-predictor/annotator'
