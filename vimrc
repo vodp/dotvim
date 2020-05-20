@@ -16,4 +16,5 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <silent> <C-n> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
 let g:airline#extensions#branch#enabled = 1
-let g:filetype#plugin = on
+let g:airline#extensions#nerdtree_status = 1
+let g:airline_powerline_fonts = 1
